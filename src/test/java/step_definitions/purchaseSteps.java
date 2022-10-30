@@ -21,7 +21,7 @@ public class purchaseSteps {
         inventoryPage.setProductSort(sortProduct);
         Thread.sleep(2000);
     }
-    @When("User can select item \"Sauce Labs Backpack\" and \"Sauce Labs Bike Light\" on landing page")
+    @When("User can select item Test.allTheThings T-Shirt Red and Sauce Labs Onesie on landing page")
     public void userAddtoCart() throws InterruptedException{
         InventoryPage inventoryPage = new InventoryPage(webDriver);
         inventoryPage.AddProduct1();
