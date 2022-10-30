@@ -7,7 +7,7 @@ Scenario: User want purchase item to cart
   Given User open the web page
   When User input "standard_user" as userName and "secret_sauce" as password
   Then User sort product list by "Name (Z to A)"
-  When User can select item "Sauce Labs Backpack" and "Sauce Labs Bike Light" on landing page
+  When User can select item Test.allTheThings T-Shirt Red and Sauce Labs Onesie on landing page
   Then User click icon cart on landing page
   And User remove 1 item on Your Cart page
   Then User can click checkout button on Your Cart page
